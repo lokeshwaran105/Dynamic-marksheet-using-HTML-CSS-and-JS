@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="marksheet">
+        <div class="top">
+            <p class="s-no">Sr.No. <span>00000000</span></p>
+            <img src="assets/logo.png" alt="logo" height="100px" class="logo">
+            <img src="assets/qr.png" alt="qrcode" height="50px" class="qrcode">
+        </div>
+        <div class="clg-name">
+            <!-- <p>Hindusthan College of Engineering and Technology</p> -->
+            <img src="assets/Pink and Brown Curved Text Minimalist Logo (1000 x 500 px).png" height="350px" class="clg-name-logo">
+
+        </div>
+        <div class="mark-text">
+            <p class="text t1">Associated with Technical and Paramedical Eductation Council</p>
+            <p class="text t2">An Autonomous Institution Recognized by Government of India</p>
+        </div>
+        <div class="mark-title">
+            <h1>Annual Statement of Marks</h>
+        </div>
+        <div class="info-table">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <p class="info-title">Name of the Candidate</p>
+                        <p>Lokeshwaran</p>
+                    </td>
+                    <td>
+                        <p class="info-title">Course name with Code</p>
+                        <p>B.E. Computer Science and Engineering</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="info-title">Reg. No.</p>
+                        <p>720721104105</p>
+                    </td>
+                    <td>
+                        <p class="info-title">Enrollment No.</p>
+                        <p>5976214</p>
+                    </td>
+                    <td>
+                        <p class="info-title">Authorized Training Center Name with Code</p>
+                        <p>Authorized Training Center Name</p>
+                        <p>Authorized Training Center Code</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="mark-table">
+            <table>
+                <tr>
+                    <th rowspan="2" class="sub-code">Subject Code</th>
+                    <th rowspan="2" class="sub-name">Subject Name</th>
+                    <th rowspan="2">Max. Marks</th>
+                    <th rowspan="1" colspan="3">Marks Obtained In Figures</th>
+                    <th rowspan="2">Total in Words</th>
+                </tr>
+                <tr>
+                    <!-- <th class="blank sub-code"></th>
+                    <th class="blank sub-name"></th>
+                    <th class="blank"></th> -->
+                    <th rowspan="1" class="inp">Theory</th>
+                    <th rowspan="1" class="inp">Practical</th>
+                    <th rowspan="1">Total</th>
+                    <!-- <th class="blank mark-word"></th> -->
+                </tr>
+                <tr>
+                    <td class="sub-code">21CS6201</td>
+                    <td class="sub-name">Cloud Computing</td>
+                    <td>100</td>
+                    <td class="inp"><input type="text" onchange="add1()" id="val1"></td>
+                    <td class="inp"><input type="text" onchange="add1()" id="val2"></td>
+                    <td class="mark-tot tot-1"></td>
+                    <td class="mark-word">One Zero Zero</td>
+                </tr>
+                <tr>
+                    <td class="sub-code">21CS6202</td>
+                    <td class="sub-name">Computer Networks</td>
+                    <td>100</td>
+                    <td class="inp"><input type="text" onchange="add2()" id="val3"></td>
+                    <td class="inp"><input type="text" onchange="add2()" id="val4"></td>
+                    <td class="mark-tot tot-2">100</td>
+                    <td class="mark-word">One Zero Zero</td>
+                </tr>
+                <tr>
+                    <td class="sub-code">21CS6203</td>
+                    <td class="sub-name">DBMS</td>
+                    <td>100</td>
+                    <td class="inp"><input type="text" onchange="add3()" id="val5"></td>
+                    <td class="inp"><input type="text" onchange="add3()" id="val6"></td>
+                    <td class="mark-tot tot-3">100</td>
+                    <td class="mark-word">One Zero Zero</td>
+                </tr>
+                <tr>
+                    <td class="sub-code">21CS6204</td>
+                    <td class="sub-name">Java Programming</td>
+                    <td>100</td>
+                    <td class="inp"><input type="text" onchange="add4()" id="val7"></td>
+                    <td class="inp"><input type="text" onchange="add4()" id="val8"></td>
+                    <td class="mark-tot tot-4">100</td>
+                    <td class="mark-word">One Zero Zero</td>
+                </tr>
+                <tr>
+                    <td class="sub-code">21CS6205</td>
+                    <td class="sub-name">Compiler Design</td>
+                    <td>100</td>
+                    <td class="inp"><input type="text" onchange="add5()" id="val9"></td>
+                    <td class="inp"><input type="text" onchange="add5()" id="val10"></td>
+                    <td class="mark-tot tot-5">100</td>
+                    <td class="mark-word">One Zero Zero</td>
+                </tr>
+                <tr>
+                    <td class="sub-code">21CS6206</td>
+                    <td class="sub-name">Artificial Intelligence</td>
+                    <td>100</td>
+                    <td class="inp"><input type="text" onchange="add6()" id="val11"></td>
+                    <td class="inp"><input type="text" onchange="add6()" id="val12"></td>
+                    <td class="mark-tot tot-6">100</td>
+                    <td class="mark-word">One Zero Zero</td>
+                </tr>
+                <tr>
+                    <td class="sub-code">21CS6207</td>
+                    <td class="sub-name">Software Engineering</td>
+                    <td>100</td>
+                    <td class="inp"><input type="text" onchange="add7()" id="val13"></td>
+                    <td class="inp"><input type="text" onchange="add7()" id="val14"></td>
+                    <td class="mark-tot tot-7">100</td>
+                    <td class="mark-word">One Zero Zero</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Grand Total in Words</td>
+                    <td colspan="5" class="grand-total">
+                        <p id="grand-tot">000</p>
+                        <p>Hundred Zero Zero</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Month and Year of Examination</td>
+                    <td colspan="2">No.of Subjects Offered</td>
+                    <td>Result</td>
+                    <td>Percentage</td>
+                    <td>Grade</td>
+                </tr>
+                <tr>
+                    <td colspan="2">May 2020</td>
+                    <td colspan="2">T4+T3=7</td>
+                    <td id="result">PASS</td>
+                    <td id="percentage">00.00%</td>
+                    <td id="grade">(Grade)</td>
+                </tr>
+            </table>
+
+            <div class="mark-foot">
+                <p>Date:26/05/2003</p>
+                <p>Signature</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var sum1 = 0;
+        var sum2 = 0;
+        var sum3 = 0;
+        var sum4 = 0;
+        var sum5 = 0;
+        var sum6 = 0;
+        var sum7 = 0;
+
+        function add1(){
+            let n1 = document.getElementById('val1').value;
+            let n2 = document.getElementById('val2').value;
+            if(n1 > 90){
+                alert("Theory mark should be less than 90");
+                document.getElementById('val1').value = "";
+                return;
+            }
+            if(n2 > 10){
+                alert("Practical mark should be less than 10");
+                document.getElementById('val2').value = "";
+                return;
+            }
+            sum1 = Number(n1)+Number(n2);
+            document.getElementsByClassName('tot-1')[0].innerHTML = Number(n1)+Number(n2);
+        }
+        function add2(){
+            let n1 = document.getElementById('val3').value;
+            let n2 = document.getElementById('val4').value;
+            if(n1 > 90){
+                alert("Theory mark should be less than 90");
+                document.getElementById('val1').value = "";
+                return;
+            }
+            if(n2 > 10){
+                alert("Practical mark should be less than 10");
+                document.getElementById('val2').value = "";
+                return;
+            }
+            sum2 = Number(n1)+Number(n2);
+            document.getElementsByClassName('tot-2')[0].innerHTML = Number(n1)+Number(n2);
+        }
+        function add3(){
+            let n1 = document.getElementById('val5').value;
+            let n2 = document.getElementById('val6').value;
+            if(n1 > 90){
+                alert("Theory mark should be less than 90");
+                document.getElementById('val1').value = "";
+                return;
+            }
+            if(n2 > 10){
+                alert("Practical mark should be less than 10");
+                document.getElementById('val2').value = "";
+                return;
+            }
+            sum3 = Number(n1)+Number(n2);
+            document.getElementsByClassName('tot-3')[0].innerHTML = Number(n1)+Number(n2);
+        }
+        function add4(){
+            let n1 = document.getElementById('val7').value;
+            let n2 = document.getElementById('val8').value;
+            if(n1 > 90){
+                alert("Theory mark should be less than 90");
+                document.getElementById('val1').value = "";
+                return;
+            }
+            if(n2 > 10){
+                alert("Practical mark should be less than 10");
+                document.getElementById('val2').value = "";
+                return;
+            }
+            sum4 = Number(n1)+Number(n2);
+            document.getElementsByClassName('tot-4')[0].innerHTML = Number(n1)+Number(n2);
+        }
+        function add5(){
+            let n1 = document.getElementById('val9').value;
+            let n2 = document.getElementById('val10').value;
+            if(n1 > 90){
+                alert("Theory mark should be less than 90");
+                document.getElementById('val1').value = "";
+                return;
+            }
+            if(n2 > 10){
+                alert("Practical mark should be less than 10");
+                document.getElementById('val2').value = "";
+                return;
+            }
+            sum5 = Number(n1)+Number(n2);
+            document.getElementsByClassName('tot-5')[0].innerHTML = Number(n1)+Number(n2);
+        }
+        function add6(){
+            let n1 = document.getElementById('val11').value;
+            let n2 = document.getElementById('val12').value;
+            if(n1 > 90){
+                alert("Theory mark should be less than 90");
+                document.getElementById('val1').value = "";
+                return;
+            }
+            if(n2 > 10){
+                alert("Practical mark should be less than 10");
+                document.getElementById('val2').value = "";
+                return;
+            }
+            sum6 = Number(n1)+Number(n2);
+            document.getElementsByClassName('tot-6')[0].innerHTML = Number(n1)+Number(n2);
+        }
+        function add7(){
+            let n1 = document.getElementById('val13').value;
+            let n2 = document.getElementById('val14').value;
+            if(n1 > 90){
+                alert("Theory mark should be less than 90");
+                document.getElementById('val1').value = "";
+                return;
+            }
+            if(n2 > 10){
+                alert("Practical mark should be less than 10");
+                document.getElementById('val2').value = "";
+                return;
+            }
+            sum7 = Number(n1)+Number(n2);
+            document.getElementsByClassName('tot-7')[0].innerHTML = Number(n1)+Number(n2);
+
+            if(sum1 && sum2 && sum3 && sum4 && sum5 && sum6 && sum7){
+                calculate();
+            }
+        }
+
+
+        function calculate() {
+            let total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7;
+            document.getElementById('grand-tot').innerHTML = total;   
+            let percentage = (total/7)*100;
+            document.getElementById('percentage').innerHTML = percentage;
+            if(percentage > 50.0){
+                document.getElementById('result').innerHTML = "PASS"
+            }          
+            else{
+                document.getElementById('result').innerHTML = "FAIL"
+            }
+
+            let grade;
+            if(percentage > 90){
+                grade = "A+";
+            }
+            else if(percentage > 80){
+                grade = "A";
+            }
+            else if(percentage > 70){
+                grade = "B+";
+            }
+            else if(percentage > 60){
+                grade = "B";
+            }
+            else if(percentage > 50){
+                grade = "c"
+            }
+            else{
+                grade = "No Grade";
+            }
+
+            document.getElementById('grade').innerHTML = grade;
+        }
+    </script>
+</body>
+</html>
